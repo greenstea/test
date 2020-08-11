@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-11T07:53:50.003Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="M3Nq_--29TWAnsmvJNyy" version="13.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-11T08:26:49.477Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="3uYkHlACYrEKUyrR901W" version="13.5.8" type="github">
   <diagram id="GC-o13q61JomuGzPzr32" name="Page-1">
-    <mxGraphModel dx="2498" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="4595" dy="1700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -178,6 +178,22 @@
         <mxCell id="YNij3SV9KHZA9VYXYIWN-59" value="IOS：图片全量添加&lt;br&gt;安卓：第一张和最后一张必加，中间图片加水印耗时超过1.5秒则不加（包括下载图片的时间）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-250" y="1445" width="250" height="150" as="geometry" />
         </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-64" target="YNij3SV9KHZA9VYXYIWN-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-80" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YNij3SV9KHZA9VYXYIWN-79">
+          <mxGeometry x="-0.0333" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-64" target="YNij3SV9KHZA9VYXYIWN-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-84" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YNij3SV9KHZA9VYXYIWN-83">
+          <mxGeometry x="-0.1727" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-64" value="解码成功？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1430" y="890" width="80" height="80" as="geometry" />
         </mxCell>
@@ -187,14 +203,17 @@
         <mxCell id="YNij3SV9KHZA9VYXYIWN-65" value="解码数字水印" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1410" y="770" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-66" target="YNij3SV9KHZA9VYXYIWN-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-66" value="获取商品ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1410" y="1030" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-67" target="YNij3SV9KHZA9VYXYIWN-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-67" value="到商品库中进行匹配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1410" y="1150" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YNij3SV9KHZA9VYXYIWN-68" value="到商品库中进行匹配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="1270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-69" value="不支持以图搜图" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1650" y="410" width="120" height="60" as="geometry" />
@@ -210,7 +229,33 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-76" value="&lt;ol start=&quot;3&quot;&gt;&lt;li&gt;图片有黑边可能无法解码&lt;/li&gt;&lt;br&gt;&lt;li&gt;加解水印在图片宽高中小边构建的正方形中，这个区域包含水印码信息，过度修改可能导致解码失败&lt;/li&gt;&lt;br&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1730" y="715" width="310" height="170" as="geometry" />
+          <mxGeometry x="1730" y="715" width="310" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-82" value="新图搜子流程" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-89" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-86" target="YNij3SV9KHZA9VYXYIWN-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-86" target="YNij3SV9KHZA9VYXYIWN-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-91" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YNij3SV9KHZA9VYXYIWN-90">
+          <mxGeometry x="-0.0295" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-86" value="查到结果？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="1280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-88" value="按照update时间排列数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="1445" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=arrow;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-92" target="YNij3SV9KHZA9VYXYIWN-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-92" value="个人相册，只搜自己的商品；&lt;br&gt;相册动态，搜自己+上家的商品；" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1143.75" width="180" height="72.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
