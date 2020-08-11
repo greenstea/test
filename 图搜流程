@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-11T09:12:28.703Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="yS33Lx0bNaCRdDoZVwan" version="13.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-11T10:09:48.463Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="npp2xHni8WGNRc-J8ea4" version="13.5.8" type="github">
   <diagram id="GC-o13q61JomuGzPzr32" name="Page-1">
-    <mxGraphModel dx="3097" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2978" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,6 +9,9 @@
         </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-1" value="选择图片" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1410" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-2" target="YNij3SV9KHZA9VYXYIWN-65">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-2" value="点击搜索" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1410" y="660" width="120" height="60" as="geometry" />
@@ -76,7 +79,7 @@
         <mxCell id="YNij3SV9KHZA9VYXYIWN-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-11" target="YNij3SV9KHZA9VYXYIWN-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YNij3SV9KHZA9VYXYIWN-11" value="给图片增加&lt;br&gt;商品ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-11" value="给图片增加&lt;br&gt;水印ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-12" target="YNij3SV9KHZA9VYXYIWN-57">
@@ -116,13 +119,16 @@
         <mxCell id="YNij3SV9KHZA9VYXYIWN-15" value="获取商品数字水印开关" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YNij3SV9KHZA9VYXYIWN-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-18" target="YNij3SV9KHZA9VYXYIWN-14">
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-18" target="YNij3SV9KHZA9VYXYIWN-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-18" value="下载图片" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="940" width="120" height="60" as="geometry" />
+          <mxGeometry x="275" y="945" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YNij3SV9KHZA9VYXYIWN-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-19" target="YNij3SV9KHZA9VYXYIWN-18">
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-19" target="YNij3SV9KHZA9VYXYIWN-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-19" target="YNij3SV9KHZA9VYXYIWN-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-19" value="发布成功" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -180,7 +186,7 @@
             <mxPoint x="6.67" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YNij3SV9KHZA9VYXYIWN-59" value="IOS：图片全量添加&lt;br&gt;安卓：第一张和最后一张必加，中间图片加水印耗时超过1.5秒则不加（包括下载图片的时间）" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-59" value="IOS：图片全量添加&lt;br&gt;&lt;br&gt;安卓：第一张和最后一张必加，中间图片加水印耗时超过1.5秒则不加（包括下载图片的时间）&lt;br&gt;&lt;br&gt;加水印取80%区域的原因为：减少fft的区域，提高处理速度&lt;br&gt;&lt;br&gt;安卓：png 格式 转成 jpg" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-270" y="1480" width="270" height="150" as="geometry" />
         </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-64" target="YNij3SV9KHZA9VYXYIWN-66">
@@ -191,41 +197,47 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YNij3SV9KHZA9VYXYIWN-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-64" target="YNij3SV9KHZA9VYXYIWN-82">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-64" target="YNij3SV9KHZA9VYXYIWN-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1620" y="1450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1640" y="1000" />
+              <mxPoint x="1640" y="1547" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="YNij3SV9KHZA9VYXYIWN-84" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YNij3SV9KHZA9VYXYIWN-83">
-          <mxGeometry x="-0.1727" y="2" relative="1" as="geometry">
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-125" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YNij3SV9KHZA9VYXYIWN-124">
+          <mxGeometry x="0.0699" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-64" value="解码成功？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1430" y="890" width="80" height="80" as="geometry" />
+          <mxGeometry x="1430" y="960" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-65" target="YNij3SV9KHZA9VYXYIWN-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-65" value="解码数字水印" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="770" width="120" height="60" as="geometry" />
+          <mxGeometry x="1410" y="792.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-66" target="YNij3SV9KHZA9VYXYIWN-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YNij3SV9KHZA9VYXYIWN-66" value="获取商品ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="1030" width="120" height="60" as="geometry" />
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-66" value="获取水印ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="1110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YNij3SV9KHZA9VYXYIWN-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-67" target="YNij3SV9KHZA9VYXYIWN-86">
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-67" target="YNij3SV9KHZA9VYXYIWN-86">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-67" value="到商品库中进行匹配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="1150" width="120" height="60" as="geometry" />
+          <mxGeometry x="1410" y="1266.25" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-69" value="不支持以图搜图" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="1730" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-76" target="YNij3SV9KHZA9VYXYIWN-65">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1550" y="760" as="targetPoint" />
+            <mxPoint x="1550" y="942.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-78" value="解码的限制" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YNij3SV9KHZA9VYXYIWN-77">
@@ -233,40 +245,41 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YNij3SV9KHZA9VYXYIWN-76" value="&lt;ol start=&quot;3&quot;&gt;&lt;li&gt;图片有黑边可能无法解码&lt;/li&gt;&lt;br&gt;&lt;li&gt;加解水印在图片宽高中小边构建的正方形中，这个区域包含水印码信息，过度修改可能导致解码失败&lt;/li&gt;&lt;br&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1780" y="717.5" width="310" height="165" as="geometry" />
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-76" value="&lt;ol start=&quot;3&quot; style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&lt;li&gt;图片有黑边可能无法解码&lt;br&gt;（背景色为黑色的情况，也误以为是黑边）&lt;br&gt;为什么要去黑边？--&amp;gt;补充说明&lt;/li&gt;&lt;/ol&gt;&lt;ol start=&quot;3&quot; style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&lt;li&gt;加解水印在图片宽高中小边构建的正方形中，这个区域包含水印码信息，过度修改可能导致解码失败（图片因为多次转发后，被压缩了）&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="740" width="460" height="165" as="geometry" />
         </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-82" value="新图搜子流程" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="1730" y="1080" width="120" height="60" as="geometry" />
+          <mxGeometry x="1410" y="1510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YNij3SV9KHZA9VYXYIWN-89" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-86" target="YNij3SV9KHZA9VYXYIWN-88">
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-86" target="YNij3SV9KHZA9VYXYIWN-88">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YNij3SV9KHZA9VYXYIWN-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-86" target="YNij3SV9KHZA9VYXYIWN-82">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1720" y="1070" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1620" y="1320" />
-              <mxPoint x="1620" y="1110" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YNij3SV9KHZA9VYXYIWN-91" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YNij3SV9KHZA9VYXYIWN-90">
-          <mxGeometry x="-0.0295" relative="1" as="geometry">
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-121" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YNij3SV9KHZA9VYXYIWN-120">
+          <mxGeometry x="-0.2909" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YNij3SV9KHZA9VYXYIWN-86" value="查到结果？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1430" y="1280" width="80" height="80" as="geometry" />
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-122" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-86" target="YNij3SV9KHZA9VYXYIWN-82">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YNij3SV9KHZA9VYXYIWN-88" value="按照update时间排列数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="1445" width="120" height="60" as="geometry" />
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-86" value="查到结果？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="1370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-88" target="YNij3SV9KHZA9VYXYIWN-82">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1280" y="1540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-88" value="搜索结果排序中置顶" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="1380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=arrow;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-92" target="YNij3SV9KHZA9VYXYIWN-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-92" value="个人相册，只搜自己的商品；&lt;br&gt;相册动态，搜自己+上家的商品；" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="1143.75" width="180" height="72.5" as="geometry" />
+          <mxGeometry x="1070" y="1260" width="180" height="72.5" as="geometry" />
         </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-94" target="YNij3SV9KHZA9VYXYIWN-95">
           <mxGeometry relative="1" as="geometry" />
@@ -322,6 +335,18 @@
         </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-107" value="少于9张图？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2990" y="500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-127" target="YNij3SV9KHZA9VYXYIWN-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-127" value="分享" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="945" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-128" value="下载不存在超时&lt;br&gt;分享时，才有超时的限制。最后一张图片下载完后，2s" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="1290" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-129" value="安卓：压缩图片，短边不超过1080，等比例缩放" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1630" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
