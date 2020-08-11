@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2020-08-11T03:42:10.857Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" version="13.5.8" etag="awz8Ox9vibPMYIz46vLn" type="github"><diagram id="GC-o13q61JomuGzPzr32">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-08-11T06:28:05.482Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="gWNZzUYBDJhFuDIMTbpJ" version="13.5.8" type="github">
+  <diagram id="GC-o13q61JomuGzPzr32" name="Page-1">
+    <mxGraphModel dx="1645" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-1" value="选择图片" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-2" value="点击搜索" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-3" value="是否打开&lt;br&gt;以图搜图" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-4" value="开始" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-5" value="是否打开&lt;br&gt;搜索加速" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1060" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-6" value="下载图片时&lt;br&gt;打上数字水印" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-7" value="开始" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-8" value="使用数字水印进行搜索" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="90" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-9" value="给图片打上数字水印" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="310" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-10" value="发布图文" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="395" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-11" value="给图片增加&lt;br&gt;商品ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-12" value="后端下发加水印开关" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-13" value="转发图文" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="395" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-14" value="商品是否有&lt;br&gt;水印ID？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="880" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-15" value="获取商品数字水印开关" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-18" value="下载图片" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-19" value="已发布图文" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
