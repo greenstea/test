@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-11T10:18:24.633Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="ktPHg3TzFR--gb86ODkU" version="13.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-11T11:48:31.171Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="DglxUaB8GCnnn3zwFrOt" version="13.5.8" type="github">
   <diagram id="GC-o13q61JomuGzPzr32" name="Page-1">
-    <mxGraphModel dx="3309" dy="985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2665" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -108,16 +108,11 @@
         <mxCell id="YNij3SV9KHZA9VYXYIWN-14" value="商品是否有&lt;br&gt;水印ID？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="1080" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YNij3SV9KHZA9VYXYIWN-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-15" target="YNij3SV9KHZA9VYXYIWN-5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="440" y="1210" />
-              <mxPoint x="250" y="1210" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-15" target="YNij3SV9KHZA9VYXYIWN-145">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-15" value="获取商品数字水印开关" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="1090" width="120" height="60" as="geometry" />
+          <mxGeometry x="510" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-18" target="YNij3SV9KHZA9VYXYIWN-14">
           <mxGeometry relative="1" as="geometry" />
@@ -350,6 +345,25 @@
         </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-138" value="图片有黑边可能无法解码&lt;br&gt;（背景色为黑色的情况，也误以为是黑边）&lt;br&gt;为什么要去黑边？补充说明&lt;br&gt;&lt;br&gt;加解水印在图片宽高中小边构建的正方形中，这个区域包含水印码信息，过度修改可能导致解码失败（图片因为多次转发后，被压缩了）" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1070" y="738.75" width="260" height="167.5" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-145" target="YNij3SV9KHZA9VYXYIWN-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-148" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YNij3SV9KHZA9VYXYIWN-147">
+          <mxGeometry x="-0.0571" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-149" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-145" target="YNij3SV9KHZA9VYXYIWN-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="1780" />
+              <mxPoint x="480" y="1780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-145" value="添加成功？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1180" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
