@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-11T10:09:48.463Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="npp2xHni8WGNRc-J8ea4" version="13.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-11T10:10:16.801Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="aQNTFDBw4dVGP7RrEfCn" version="13.5.8" type="github">
   <diagram id="GC-o13q61JomuGzPzr32" name="Page-1">
     <mxGraphModel dx="2978" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -186,7 +186,7 @@
             <mxPoint x="6.67" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YNij3SV9KHZA9VYXYIWN-59" value="IOS：图片全量添加&lt;br&gt;&lt;br&gt;安卓：第一张和最后一张必加，中间图片加水印耗时超过1.5秒则不加（包括下载图片的时间）&lt;br&gt;&lt;br&gt;加水印取80%区域的原因为：减少fft的区域，提高处理速度&lt;br&gt;&lt;br&gt;安卓：png 格式 转成 jpg" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="YNij3SV9KHZA9VYXYIWN-59" value="IOS：图片全量添加&lt;br&gt;&lt;br&gt;安卓分享时：第一张和最后一张必加，中间图片加水印耗时超过2秒则不加（包括下载图片的时间）&lt;br&gt;&lt;br&gt;加水印取80%区域的原因为：减少fft的区域，提高处理速度&lt;br&gt;&lt;br&gt;安卓：png 格式 转成 jpg" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-270" y="1480" width="270" height="150" as="geometry" />
         </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YNij3SV9KHZA9VYXYIWN-64" target="YNij3SV9KHZA9VYXYIWN-66">
@@ -341,9 +341,6 @@
         </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-127" value="分享" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="105" y="945" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YNij3SV9KHZA9VYXYIWN-128" value="下载不存在超时&lt;br&gt;分享时，才有超时的限制。最后一张图片下载完后，2s" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-260" y="1290" width="270" height="150" as="geometry" />
         </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-129" value="安卓：压缩图片，短边不超过1080，等比例缩放" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="1630" width="120" height="60" as="geometry" />
