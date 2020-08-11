@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-11T07:53:33.493Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="rKu1-0HAi1gGfqrjCWYh" version="13.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-11T07:53:50.003Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="M3Nq_--29TWAnsmvJNyy" version="13.5.8" type="github">
   <diagram id="GC-o13q61JomuGzPzr32" name="Page-1">
     <mxGraphModel dx="2498" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -210,7 +210,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YNij3SV9KHZA9VYXYIWN-76" value="&lt;ol start=&quot;3&quot;&gt;&lt;li&gt;图片有黑边可能无法解码&lt;/li&gt;&lt;br&gt;&lt;li&gt;加解水印在图片宽高中小边构建的正方形中，这个区域包含水印码信息，过度修改可能导致解码失败&lt;/li&gt;&lt;br&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1730" y="715" width="260" height="170" as="geometry" />
+          <mxGeometry x="1730" y="715" width="310" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
