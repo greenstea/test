@@ -8,7 +8,7 @@
 	<!-- 定义依赖版本号 -->
 	<properties>
 		<!--web系统必须设置 -->
-		<junit.version>4.12</junit.version>
+		<junit.version>4.13.1</junit.version>
 		<servlet-api.version>2.5</servlet-api.version>
 		<jstl.version>1.2</jstl.version>
 		<jsp-api.version>2.0</jsp-api.version>
