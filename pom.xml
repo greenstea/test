@@ -26,7 +26,7 @@
 		<commons-dbcp.version>1.4</commons-dbcp.version>
 
 		<!--视图层常用包 -->
-		<jackson.version>2.4.2</jackson.version>
+		<jackson.version>2.12.6.1</jackson.version>
 
 
 		<!-- JEE开源框架 -->
